@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Lesson 3 Assignment" content="Lesson 3 Assignment">
+    <meta name="Liam Wirsansky" content="Lesson 3 Assignment">
+
+    <title>Liam Wirsansky</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web Application Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#topic1">Version Control</a>
+                    </li>
+                    <li>
+                        <a href="#topic2">History of Git</a>
+                    </li>
+                    <li>
+                        <a href="#topic3">How Does Git Work</a>
+                    </li>
+                    <li>
+                        <a href="#topic4">Getting a Git Repository</a>
+                    </li>
+                    <li>
+                        <a href="#topic5">Cloning an Existing Repository</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h2>Lesson 3 Highlights</h2>
+                <h3 style="background:#FFF">Liam Wirsansky</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="topic1">
+            <img class="featurette-image img-circle img-responsive pull-right" src="versioncontrol.png">
+            <h2 class="featurette-heading">Version Control
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">Version control is a logging system that archives any alterations to a file or set of files over a period of time so that you can access them later. These systems allow you to revert files back to a previous state or version, compare changes over a period of time, return the project back to a previous state, see what was last modified and who completed that modification (also revealing something that might be causing a problem), and much more. Utilizing a Versioning Control System (VCS) also helps the user if they mess anything up or lose any of the files. Files can easily be recovered and all versions accessible.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="topic2">
+            <img class="featurette-image img-circle img-responsive pull-left" src="git.png">
+            <h2 class="featurette-heading">History of Git
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">Inspired by the Linux kernel, an open source software project of a fairly large scope, git is a free open source versioning control system that stores information.  After BitKeeper, a patented distributed version control system (DVCS) broke down, and the tool’s free-of-charge status was revoked the Linux development community developed their own tool basing their design on some of the principles they realized through BitKeeper, such as speed, simple design, fully distributed, and able to handle projects with large data size, among other things. Git has transformed and adapted to be easily accessible, while also following their initial principles that the system was built on.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="topic3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="github.png">
+            <h2 class="featurette-heading">How Does Git Work
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">While most VCS store information as a list of file-based changes, and think of the information they store as a set and the changes made to each file over time, Git differs in the sense that when you commit, the file’s state is recorded similarly to taking a screenshot on your phone. In the name of efficiency, Git only stores the file if it has changed. If the file remains the same, a link to the previous identical file. Rather than working like a normal VCS, Git operates more like a filing system with additional tools to help it, making it more powerful and effective in many cases.</p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+       <!-- Fourth Featurette -->
+        <div class="featurette" id="topic4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="grumpygit.png">
+            <h2 class="featurette-heading">Getting a Git Repository
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">Typically, you can gain a Git repository by taking a local directory that is currently not under version control, and turn it into a Git repository, or duplicate an existing Git repository from somewhere else. Project directories that are not presently under version control that you want to start controlling with Git, need the user to go to that project’s directory and type “$ git init”. By completing this step, the user creates a new subdirectory named “.git” that contains all of their necessary repository files. If the user needs to start version-controlling already existing files they should begin tracking those files by doing an initial commit.  By typing “$ git commit”.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="topic5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="gitpixel.png">
+            <h2 class="featurette-heading">Cloning an Existing Repository
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">If the user needs a copy of an existing Git repository the command they would need to type is “git clone”. Many VCS systems use the command "clone" and not "checkout", which is important to note because instead of getting just a working copy, Git receives a full copy of nearly all the data that the server has.  When you run the “git clone” command, every version of every file for the history of the project is pulled from the repository and is often taken advantage of when a user’s service disk is corrupted. The user should be able to access nearly any of the clones on any client to set the server back to the state it was in when it was duplicated.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2018</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
