@@ -13,6 +13,9 @@ Web Application Development
 ## Project Description:
 (This assignment teaches the student how to setup and utilize a git repository, as well as review and highlight several different concepts and lessons learned throughout Lesson 3.)
 
+## View Project:
+(https://liamwir12.github.io/lesson3_VersionControl/)
+
 ## Lessons Learned in the Assignment:
 1. (Version control is a logging system that archives any alterations to a file or set of files over a period of time so that you can access them later.)
 2. (Inspired by the Linux kernel, an open source software project of a fairly large scope, git is a free open source versioning control system that stores information.)
